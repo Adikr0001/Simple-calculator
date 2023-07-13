@@ -1,11 +1,14 @@
-x = input("Enter the first number:")
+x = (input("Enter the first number:")
 
-y = input("Enter the second number:")
+y = (input("Enter the second number:")
 
-print (int(x) + int(y)) 
+num = int(input("Enter the no. :"))
 
-print (int(x) - int(y))
-
-print (int(x) * int(y))
-
-print (int(x) / int(y))
+if (num == 1):
+  print (int(x) + int(y)) 
+elif (num ==2):
+  print (int(x) - int(y))
+elif (num ==3):
+  print (int(x) * int(y))
+else:
+  print (int(x) / int(y))
